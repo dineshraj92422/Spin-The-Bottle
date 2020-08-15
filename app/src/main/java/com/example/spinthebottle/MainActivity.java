@@ -31,7 +31,7 @@ public class MainActivity extends AppCompatActivity {
             float pivotY =imgbottle.getHeight()/2;
 
             Animation rotate =new RotateAnimation(lastDir,newDir,pivotX,pivotY);
-            rotate.setDuration(2500);
+            rotate.setDuration(1500);
             rotate.setFillAfter(true);
             rotate.setAnimationListener(new Animation.AnimationListener() {
                 @Override
